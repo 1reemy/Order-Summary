@@ -14,19 +14,21 @@
       font-size: 16px; 
       text-align: center;
       padding: 10px;
-      margin: 25px 0px -10px 0px;          
+      margin: 10px 0px -10px 0px;          
     }
     .attribution a { color: hsl(228, 45%, 44%); }
     .look{background-color: beige;}
     .fullcard{
       position:relative;
       margin:auto;
-      top: 100px;
+      top: 20px;
       width: 450px;
       border-width: 1px;
       border-radius: 10px;
       border-color: hsl(224, 23%, 55%);
-      border-style: solid;          
+      border-style: solid;  
+      background-color: white;  
+      box-shadow: 0px 20px 10px rgba(0,0,0,0.19);      
     }
     .main{
       margin: 50px;
@@ -35,8 +37,22 @@
     .right{
       position:relative;
       left:100px;
-      bottom: 45px;
-     
+      bottom: 45px;     
+    }
+    .left{
+      position:relative;
+      right:120px;
+      bottom:100px;
+    }
+    .music{
+      width:50px;
+      height:50px;
+    }
+    .hero{
+      width:450px;
+      height:200px;
+      border-radius: 10px;
+      
     }
     button {
       background-color: hsl(224, 23%, 55%);
@@ -45,6 +61,7 @@
       height: 50px;
       padding: 10px;
       border-radius: 10px;
+      box-shadow: 0px 10px 10px rgba(0,0,0,0.19);
     }
     .pay{
       background-color: hsl(225, 100%, 98%);
@@ -58,12 +75,17 @@
     .text{
       margin:8px 80px 0px 0px;
     }
+    body{
+      background-image:url(https://user-images.githubusercontent.com/66215320/136707770-a88fe141-79bd-4118-996e-77c2bdc6363f.jpg);
+      width:1300px;
+      height:10px;
+    }
   </style>
 </head>
 <body class='look'>
   <section class='fullcard'>
     <div>
-
+      <img class='hero' src='https://user-images.githubusercontent.com/66215320/136706545-c53f870a-30ba-4f5f-b850-c1d22b16aa54.jpeg'>
     </div>
     <div class='attribution'>
       <h3>
@@ -82,6 +104,9 @@
       <p class='text'>$59.99/year</p>        
       <p class='right'>    
         Change
+      </p>
+      <p class='left'>
+        <img class='music' src='https://user-images.githubusercontent.com/66215320/136706108-7cbe7cb9-86c8-4dee-afb0-5de74804c844.jpg'>
       </p>            
     </div>
     <div class='attribution'>
