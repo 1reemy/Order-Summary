@@ -14,7 +14,7 @@
       font-size: 16px; 
       text-align: center;
       padding: 10px;
-      margin: 25px;          
+      margin: 25px 0px -10px 0px;          
     }
     .attribution a { color: hsl(228, 45%, 44%); }
     .look{background-color: beige;}
@@ -34,12 +34,29 @@
     }
     .right{
       position:relative;
-      left:160px;
-      bottom: 40px;
+      left:100px;
+      bottom: 45px;
+     
     }
     button {
       background-color: hsl(224, 23%, 55%);
-      
+      color:azure;
+      width: 360px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .pay{
+      background-color: hsl(225, 100%, 98%);
+      height:60px;
+      width: 300px;
+      margin:auto;
+      padding:5px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .text{
+      margin:8px 80px 0px 0px;
     }
   </style>
 </head>
@@ -57,13 +74,15 @@
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </p>
-      <h4 style="background-color: hsl(225, 100%, 98%)">
+    </div>
+    <div class='pay'>
+      <h4 class='text'>
         Annual Plan
-        $59.99/year
       </h4>
+      <p class='text'>$59.99/year</p>        
       <p class='right'>    
         Change
-      </p>      
+      </p>            
     </div>
     <div class='attribution'>
       <button>Proceed to Payment</button>
@@ -72,7 +91,7 @@
   
   <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Kareem Campbell</a>.
   </div>-->
 </section>
 
