@@ -5,39 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
 
+  <title>Frontend Mentor | Order summary card</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet" type="text/css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { 
       font-size: 16px; 
+      font-weight: 500;
       text-align: center;
-      padding: 10px;
-      margin: 10px 0px -10px 0px;          
+      padding: 5px;
+      margin: 0px 0px -5px 0px;          
     }
     .attribution a { color: hsl(228, 45%, 44%); }
     .look{background-color: beige;}
     .fullcard{
       position:relative;
       margin:auto;
+      padding-bottom: 30px;
       top: 20px;
       width: 450px;
       border-width: 1px;
-      border-radius: 10px;
+      border-radius: 20px;
       border-color: hsl(224, 23%, 55%);
       border-style: solid;  
       background-color: white;  
-      box-shadow: 0px 20px 10px rgba(0,0,0,0.19);      
+      box-shadow: 0px 20px 10px rgba(0,0,0,0.19);
+      font-family:"Red Hat Display";      
     }
     .main{
-      margin: 50px;
+      margin: 20px 50px 20px 50px;
       padding: 10px;
     }
     .right{
       position:relative;
       left:100px;
-      bottom: 45px;     
+      bottom: 50px;   
+      font-weight: 700;  
     }
     .left{
       position:relative;
@@ -51,7 +56,7 @@
     .hero{
       width:450px;
       height:200px;
-      border-radius: 10px;
+      border-radius: 20px;
       
     }
     button {
@@ -60,6 +65,7 @@
       width: 360px;
       height: 50px;
       padding: 10px;
+      margin: 30px 0px 10px 0px;
       border-radius: 10px;
       box-shadow: 0px 10px 10px rgba(0,0,0,0.19);
     }
@@ -68,17 +74,18 @@
       height:60px;
       width: 300px;
       margin:auto;
-      padding:5px;
+      padding:5px 0px 15px 0px;
       border-radius: 10px;
       text-align: center;
     }
     .text{
       margin:8px 80px 0px 0px;
+      font-weight: 700;
     }
     body{
       background-image:url(https://user-images.githubusercontent.com/66215320/136707770-a88fe141-79bd-4118-996e-77c2bdc6363f.jpg);
       width:1300px;
-      height:10px;
+      height:10px;      
     }
   </style>
 </head>
@@ -88,11 +95,11 @@
       <img class='hero' src='https://user-images.githubusercontent.com/66215320/136706545-c53f870a-30ba-4f5f-b850-c1d22b16aa54.jpeg'>
     </div>
     <div class='attribution'>
-      <h3>
+      <h2>
         Order Summary
-      </h3>
+      </h2>
         
-      <p class='main'>
+      <p class='main' style='color: darkgrey'>
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </p>
@@ -101,7 +108,7 @@
       <h4 class='text'>
         Annual Plan
       </h4>
-      <p class='text'>$59.99/year</p>        
+      <p class='text' style='color: darkgrey'>$59.99/year</p>        
       <p class='right'>    
         Change
       </p>
@@ -111,7 +118,7 @@
     </div>
     <div class='attribution'>
       <button>Proceed to Payment</button>
-      <p>Cancel Order</p>
+      <p style='font-weight: 900'>Cancel Order</p>
     </div>  
   
   <!--<div class="attribution">
