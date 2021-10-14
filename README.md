@@ -7,7 +7,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,14 +27,9 @@ Users should be able to:
 - Clearly see the various levels of text in the card element
 - Easily identify the various elements of the Card
 
-### Screenshot
-
-[](https://user-images.githubusercontent.com/66215320/137234991-25e6e1db-6094-43a8-96be-c16668cc4688.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://1reemy.github.io/Order-Summary/)
-- Live Site URL: [Add live site URL here](https://1reemy.github.io/Order-Summary/)
+- Solution URL: [Solution URL here](https://1reemy.github.io/Order-Summary/)
 
 ## My process
 
