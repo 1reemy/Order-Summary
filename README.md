@@ -35,8 +35,8 @@ Users should be able to:
 
 In order to arrive at a solution for the challenge, I examined the bare code that was given with the file and set about adding more html code to the template. In adding
 code to the template, I started adding HTML code in order to give the page more structure and to seperate the various sections so that I can clearly position these sections
-and style them using CSS. After doing this, I then styled the page based on how the example provided, looked. The image files provided were in SVG so I converted them to JPEG 
-in doing this however, the hero image came out as a blue rectangle instead of displaying the full image. I was also unable to get the background image right.
+and style them using CSS. After doing this, I then styled the page based on how the example provided, looked. The image files provided were in SVG so I converted them to PNG 
+and JPEG as Github does not support SVG files.
 
 ### Built with
 
